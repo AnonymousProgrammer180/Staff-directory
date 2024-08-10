@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    color: rgba(31, 245, 85, 0.726);
+    margin-left: 120px;
+     margin-right: 120px;
+     max-width: 80%;
+ }
+ .logo{
+     font-size: 1.5em;
+     font-weight: bold;
+ }
+ 
+ .nav-links {
+     list-style: none;
+     display: flex;
+ }
+ 
+ .nav-links li {
+     margin-left: 20px;
+ 
+ }
+ 
+ .nav-link a{
+     color: white;
+     text-decoration: none;
+     font-size: 1em;
+     transition: color 0.5s ease;
+ }
+ 
+ .nav-item {
+     padding: 12px;
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .nav-item:hover{
+     background-color: rgba(78, 204, 73, 0.493);
+     border-radius: 8px;
+     transition: color 1s ease;
+     background-color: 1s ease;
+    }
+
+
+
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy h2 {
+    color: #333;
+    margin-top: 1.5rem;
+}
+h1{
+    color: #333;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.terms p {
+    margin: 0.5rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #33eb2200;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+}

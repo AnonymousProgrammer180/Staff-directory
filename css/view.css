@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0 ;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/*Navigation bar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-left: 150px;
+     margin-right: 150px;
+     max-width: 80%;
+ }
+ /*navigation bar logo*/
+ .logo{
+     font-size: 1.5em;
+     font-weight: bold;
+ }
+ /*navigation bar text*/
+ .nav-links {
+     list-style: none;
+     display: flex;
+ }
+ .nav-links li {
+     margin-left: 20px;
+ }
+ .nav-link a{
+     color: white;
+     text-decoration: none;
+     font-size: 1em;
+     transition: color 0.5s ease;
+ }
+ a{
+     text-decoration: none;
+     color: green;
+ }
+ .nav-item {
+     padding: 12px;
+     text-decoration: none;
+     color: white;
+ }
+ .nav-item:hover{
+     background-color: rgba(236, 174, 3, 0.582);
+     border-radius: 8px;
+     transition: color 1s ease;
+     background-color: 1s ease;
+ }
+ h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/*Box form*/
+.form-box{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 10px auto;
+    background-color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+th, td{
+    padding: 25px 15px;
+}
+
+thead{
+    background-color: #1aaee900;
+}
+#copyright{
+    text-align: center;
+    padding: 1rem 0;
+    background: #33eb2200;
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
